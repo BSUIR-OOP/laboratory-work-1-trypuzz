@@ -20,5 +20,6 @@ namespace OOP_1lab
                 int f_side = arr[0];
                 int s_side = arr[1];
             }
+
     }
 }
