@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_1lab
+namespace FiguresLR1
 {
-    internal class zCircle:zEllipse
+    internal abstract class spisok
     {
+
 
     }
 }
