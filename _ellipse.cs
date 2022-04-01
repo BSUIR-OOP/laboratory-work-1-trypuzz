@@ -10,10 +10,13 @@ namespace ConsoleApp1
     {
         private protected int x, y;
         private protected int f_axle, s_axle;
-        public virtual int f_Ax { get { return f_axle; } set { f_axle = value; } }
-        public virtual int s_Ax { get { return s_axle; } set { s_axle = value; } }
+
+        public virtual int f_ax { get { return f_axle; } set { f_axle = value; } }
+        public virtual int s_ax { get { return s_axle; } set { s_axle = value; } }
+
         public int p_x { get { return x; } set { x = value; } }
         public int p_y { get { return y; } set { y = value; } }
+
         public _ellipse(int x1, int y1, int axle1, int axle2)
         {
             x = x1;              y = y1;

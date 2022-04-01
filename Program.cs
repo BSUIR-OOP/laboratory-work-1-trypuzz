@@ -17,6 +17,7 @@ namespace ConsoleApp1
 
                 new _4angle(10, 20, 15, 25, 30, 30, 15, 15),
                 new _parallelogram(10, 20, 15, 25, 30, 30, 15, 15),
+
                 new _rectangle(10, 20, 15, 25),
                 new _square(10, 20, 30, 40),
             };
