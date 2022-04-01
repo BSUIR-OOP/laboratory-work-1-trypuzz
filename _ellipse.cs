@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Ellipse: _BaseClass
+    class _ellipse: _BaseClass
     {
         private protected int x, y;
         private protected int f_axle, s_axle;
@@ -14,7 +14,7 @@ namespace ConsoleApp1
         public virtual int s_Ax { get { return s_axle; } set { s_axle = value; } }
         public int p_x { get { return x; } set { x = value; } }
         public int p_y { get { return y; } set { y = value; } }
-        public Ellipse(int x1, int y1, int axle1, int axle2)
+        public _ellipse(int x1, int y1, int axle1, int axle2)
         {
             x = x1;
             y = y1;
