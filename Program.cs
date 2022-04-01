@@ -14,9 +14,10 @@ namespace ConsoleApp1
             {
                 new _ellipse(5, 5, 55, 105),
                 new _circle(5, 5, 55),
+
                 new _4angle(10, 20, 15, 25, 30, 30, 15, 15),
                 new _parallelogram(10, 20, 15, 25, 30, 30, 15, 15),
-                new _rectangle(10, 20, 15, 20),
+                new _rectangle(10, 20, 15, 25),
                 new _square(10, 20, 30, 40),
             };
 
@@ -24,8 +25,6 @@ namespace ConsoleApp1
             {
                 f.ShowFigure();
             }
-
-
         }
     }
 }

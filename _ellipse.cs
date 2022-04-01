@@ -16,21 +16,19 @@ namespace ConsoleApp1
         public int p_y { get { return y; } set { y = value; } }
         public _ellipse(int x1, int y1, int axle1, int axle2)
         {
-            x = x1;
-            y = y1;
-            f_axle = axle1;
-            s_axle = axle2;
+            x = x1;              y = y1;
+            f_axle = axle1;      s_axle = axle2;
         }
 
         public override string FigureName() 
         { return "Эллипс"; }
+
         public override void ShowFigure()
         {Console.WriteLine(
             $"{FigureName()}\n" +
             $"Центр в точке ({x},{y}); \n" +
             $"Большая полуось: {f_axle}; \n" +
-            $"Малая полуось: {s_axle}. \n\n"
-            );
+            $"Малая полуось: {s_axle}. \n\n");
         }
     }
 }
