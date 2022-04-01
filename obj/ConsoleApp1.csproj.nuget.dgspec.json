@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI\\Desktop\\1лаб\\console_figures\\ConsoleApp1.csproj": {}
+    "E:\\GitHub\\laboratory-work-1-trypuzz\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\Desktop\\1лаб\\console_figures\\ConsoleApp1.csproj": {
+    "E:\\GitHub\\laboratory-work-1-trypuzz\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\Desktop\\1лаб\\console_figures\\ConsoleApp1.csproj",
+        "projectUniqueName": "E:\\GitHub\\laboratory-work-1-trypuzz\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\MSI\\Desktop\\1лаб\\console_figures\\ConsoleApp1.csproj",
+        "projectPath": "E:\\GitHub\\laboratory-work-1-trypuzz\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\Desktop\\1лаб\\console_figures\\obj\\",
+        "outputPath": "E:\\GitHub\\laboratory-work-1-trypuzz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\VisualStudio 2019\\Obshie components\\NuGetPackages"
