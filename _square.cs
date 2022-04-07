@@ -19,7 +19,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine(
                 $"{FigureName()}\n" +
-                $"Координаты:\n" +
+                $"Координаты вершин:\n" +
                 $"(A = {x1},{y1}),\n" +
                 $"(B = {x1},{y2}),\n" +
                 $"(C = {x2},{y2}) \n"+
