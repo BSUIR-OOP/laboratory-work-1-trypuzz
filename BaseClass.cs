@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal abstract class _BaseClass
+    internal abstract class BaseClass
     {
         public abstract string FigureName();
         public abstract void ShowFigure();

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class _square: _4angle
+    internal class Square: FourAngle
     {
         public override int x_x4 { get { return x4; } }
         public override int y_y4 { get { return y4; } }
 
-        public _square(int x1, int x2, int y1, int y2) : base(x1, x2, y1, y2,x2,y2,x1,y1)
+        public Square(int x1, int x2, int y1, int y2) : base(x1, x2, y1, y2,x2,y2,x1,y1)
         {
         }
         public override string FigureName() { return "Квадрат"; }

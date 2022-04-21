@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class _circle : _ellipse
+    class Circle : Ellipse
     {
         public int radius { get { return f_axle; } set { f_axle = value; s_axle = value; } }
 
-        public _circle(int x1, int y1, int r) : base(x1, y1, r, r)
+        public Circle(int x1, int y1, int r) : base(x1, y1, r, r)
         {
         }
 

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class _4angle : _BaseClass
+    internal class FourAngle : BaseClass
     {
         private protected int x1, y1;
         private protected int x2, y2;
         private protected int x3, y3;
         private protected int x4, y4;
 
-        public int x_x1 { get { return x1; } set { x1 = value; } }
+        public int X1 { get; set; }
         public int x_x2 { get { return x2; } set { x2 = value; } }
         public virtual int x_x3 { get { return x3; } set { x3 = value; } }
         public virtual int x_x4 { get { return x4; } set { x4 = value; } }
@@ -23,7 +23,7 @@ namespace ConsoleApp1
         public virtual int y_y3 { get { return y3; } set { y3 = value; } }
         public virtual int y_y4 { get { return y4; } set { y4 = value; } }
 
-        public _4angle(int x1,int x2, int x3, int x4, int y1, int y2, int y3, int y4)
+        public FourAngle(int x1,int x2, int x3, int x4, int y1, int y2, int y3, int y4)
         {
             this.x1 = x1;            this.x2 = x2;          
             this.x3 = x3;            this.x4 = x4;
